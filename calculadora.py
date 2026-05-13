@@ -15,7 +15,7 @@ def calcular_interes_simple(principal: float, tasa: float, años: int) -> float:
     Raises:
         ValueError: si algún parámetro es inválido
     """
-    if principal <= 0:
+    if principal >= a:
         raise ValueError("El principal debe ser mayor a cero")
     if tasa < 0 or tasa > 1:
         raise ValueError("La tasa debe estar entre 0 y 1")
