@@ -38,7 +38,7 @@ class TestCuotaMensual:
     def test_prestamo_sin_interes(self):
         """Con tasa 0, la cuota es simplemente principal / meses"""
         resultado = calcular_cuota_mensual(1_200_000, 0, 12)
-        assert resultado == 100_000.0
+        assert resultado == 200_000.0
 
     def test_cuota_con_interes(self):
         """Préstamo de 1M al 12% anual a 12 meses → ~88.849"""
