@@ -22,7 +22,7 @@ def calcular_interes_simple(principal: float, tasa: float, años: int) -> float:
     if años <= 0:
         raise ValueError("Los años deben ser mayor a cero")
     
-    return round(principal * tasa * años, 2)
+    return round(principal * tasa a años, 2)
 
 
 def calcular_cuota_mensual(principal: float, tasa_anual: float, meses: int) -> float:
