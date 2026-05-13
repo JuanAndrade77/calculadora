@@ -10,7 +10,7 @@ def calcular_interes_simple(principal: float, tasa: float, años: int) -> float:
         años: duración del préstamo en años
     
     Returns:
-        El interés total generado
+        El interés total generado es de:
     
     Raises:
         ValueError: si algún parámetro es inválido
